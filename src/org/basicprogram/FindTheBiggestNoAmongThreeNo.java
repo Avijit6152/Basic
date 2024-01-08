@@ -20,8 +20,13 @@ public class FindTheBiggestNoAmongThreeNo {
 			System.out.println(b+" is biggest number");
 		}
 		else {
-			System.out.println(c+"is biggest number");
+			System.out.println(c+" is biggest number");
 		}
+		
+		// OR IN SHORT
+		
+		int big=(a>b && a>c ? a :(b>c ? b:c));
+		System.out.println(big+" is biggest");
 	}
 
 }
